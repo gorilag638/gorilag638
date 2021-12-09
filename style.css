@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+main{
+    text-align: center;
+    transition: 2s;
+    border: 0.3pc solid black;
+}
+main > p {
+    display: none;
+}
+main:hover{
+    border: 0.3pc solid black;
+    padding: 2pc 2pc 10cm 2pc;
+}
+main:hover > p{
+    display: block;
+}
